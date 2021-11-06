@@ -1,0 +1,107 @@
+:root{
+    --primary-text-color: #212121;
+    --title-text-color: #757575; 
+    --accent-color:#2196F3;
+    --primari-white-color: #ffffff;
+    --button-background-color: #F5F4FA;
+    --background-fotter: #2F303A;
+    --secondary-text-color: #000000;
+    --address-color:rgba(255, 255, 255, 0.6)
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: var(--primari-white-color);
+    color: var(--title-text-color) ;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    
+.list{
+    list-style: none; 
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+/* Хедер */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    font-size: 26px;
+    line-height: 1.19;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.logo-web{
+    color: var(--accent-color);
+}
+.logo-studio{
+    color: var(--secondary-text-color);
+}
+.site-nav .link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-nav .link.pege{
+    color: var(--accent-color);
+}
+
+/* .contact-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} */
+.contact-nav{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    width: 49px;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact-nav:hover,
+.contact-nav:focus{
+    color: var(--accent-color);
+}
+
+/* Fotter */
+.fotter{
+    background-color: var(--background-fotter);
+}
+.fotter-studio{
+    color: var(--primari-white-color);
+}
+.address-list{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.address-list p{
+    color: var(--primari-white-color);
+}
+.address-list a{
+    color: var(--address-color);
+}

@@ -1,0 +1,181 @@
+/* стили для index.html */
+
+/*Герой */
+.hero{
+    text-align: center;  
+}
+
+.caption{
+    background-color: var(--background-fotter);
+    width: 1600px;
+    /* height: 600px; */
+}
+
+.hero-title{
+    color: var(--primari-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 0.06em;
+}
+.hero-button{ 
+    background-color: var(--accent-color);
+    color: var(--primari-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.06em;
+    
+}
+/* Послуги */
+
+.services-title{
+    display: none;
+}
+.services{
+    flex-direction: row;
+    display:flex;
+    justify-content: center;
+    margin: 94px 0 94px 0;
+    padding: 0 30px 0 30px;
+}
+.services-subtitle{
+    font-weight:700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+.services-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.description-box{
+
+    flex-direction: row;
+    display:flex;
+    justify-content: center;
+    /* margin: 94px;
+    padding: 0 30px 0 30px; */
+    
+
+}
+.description-title{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* команда */
+.command{
+    background-color: var(--button-background-color);
+}
+.comand-box{
+    flex-direction: row;
+    display:flex;
+    justify-content: center;
+    margin: 50px 215px 94px 215px;
+  
+}
+.command-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.command-list{
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+
+/* Стили для portfolio.html */
+
+/* навигация поиска */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
+
+    
+
+.button-nav{ 
+    flex-direction: row;
+    display:flex;
+    justify-content: center;
+    margin: 50px 0 94px 0;
+}
+
+
+.button-nav-title{
+    background-color: var(--button-background-color);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    align-items:center;
+    font-family: inherit;
+    margin: 0 8px 0 8px;
+    padding: 6px 22px;
+}
+.button-nav-title:hover,
+.button-nav-title:focus{
+    background-color: var(--accent-color);
+    color: var(--primari-white-color);
+}
+.subtitle-box{
+    display: inline-;
+    flex-wrap: wrap
+}
+
+.subtitle-box-small{
+    padding-left: 30px;
+    
+}
+.subtitle-list{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.subtitle-text{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
