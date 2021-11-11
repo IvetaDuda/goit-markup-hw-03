@@ -20,9 +20,9 @@ html {
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: var(--primari-white-color);
   color: var(--title-text-color);
-  font-family: 'Roboto', sans-serif;
 }
 
 .list {
